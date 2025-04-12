@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Future Processing Blog</title>
+  <link rel="stylesheet" href="styling/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="mobile-menu-toggle">☰</div>
+    <nav>
+      <i class="fa-solid fa-circle-right"></i>
+      <h2 class="logo">Future Processing</h2>
+      <ul>
+        <li>Services</li>
+        <li class="diff">Technologies</li>
+        <li>Clients</li>
+        <li class="diff">Our company</li>
+        <li class="diff k">Knowledge Hub</li>
+        <li class="active">Blog</li>
+        <li>Career</li>
+        <li>
+          <select name="languages" id="language-select">
+            <option value="english">EN</option>
+            <option value="arabic">AR</option>
+          </select>
+        </li>
+        <li>
+          <button class="contact-btn">
+            Contact <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero">
+      <div class="myHeroDiv">
+        <div class="miniSection">
+          <i class="fa-solid fa-house-chimney"></i>
+          <h3 class="capital">BUSSINESS BLOG /</h3>
+          <h3>DOMINIK SAMOCIUK</h3>
+        </div>
+        <hr>
+        <div class="hero-content">
+          <img src="img/person.png" alt="Author Image" width="270px" height="400px" />
+          <div class="author-info">
+            <h2>Dominik Samociuk</h2>
+            <p class="f-p">Information Security Manager at Future Processing</p>
+            <p class="bio">
+              <strong>Dominik started as an independent security researcher and went
+                through variety of roles in his professional carrier.</strong>
+              Combining his professional work with the constant search for new
+              knowledge, he received a PhD in computer science.
+              He is an author or co author of more than 20 scientific as well as popular science
+              articles and a holder of various certifications, e.g. CISSP, OSCP.
+              <strong>He's constantly finding new challenges.</strong>
+            </p>
+          </div>
+          <img src="img/Frame.png" class="IMG" width="400px" height="380px" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Posts -->
+    <section class="blog-section">
+      <div class="blogDiv">
+        <div class="blog-card">
+          <img class="ImgFF" src="img/next.png" width="80" height="80" alt="Blog Image" />
+          <h4>BLOCKCHAIN</h4>
+          <p class="truth">
+            <strong>
+              The truth can be measured. Is it a myth, or is
+              blockchain performance really that bad?
+            </strong>
+          </p>
+          <img src="img/person.png" width="80px" height="90px" alt="Blog Image" />
+          <span>Dominik Samociuk</span>
+          <p class="meta">23 November 2022 • 5 min read</p>
+          <button>READ THE FULL ARTICLE</button>
+        </div>
+        <div class="blog-card">
+          <img class="ImgFF" src="img/tech.png" width="80" height="80" alt="Blog Image" />
+          <h4>BLOCKCHAIN</h4>
+          <p class="truth">
+            <strong>
+              The truth can be measured. Is it a myth, or is
+              blockchain performance really that bad?
+            </strong>
+          </p>
+          <img src="img/person.png" width="80px" height="90px" alt="Blog Image" />
+          <span>Dominik Samociuk</span>
+          <p class="meta">23 November 2022 • 5 min read</p>
+          <button>READ THE FULL ARTICLE</button>
+        </div>
+        <div class="blog-card">
+          <img class="ImgFF" src="img/teaching.jpg" width="80" height="80" alt="Blog Image" />
+          <h4>BLOCKCHAIN</h4>
+          <p class="truth">
+            <strong>
+              The truth can be measured. Is it a myth, or is
+              blockchain performance really that bad?
+            </strong>
+          </p>
+          <img src="img/person.png" width="80px" height="90px" alt="Blog Image" />
+          <span>Dominik Samociuk</span>
+          <p class="meta">23 November 2022 • 5 min read</p>
+          <button>READ THE FULL ARTICLE</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact">
+      <div class="contactSection">
+        <h2>Let's talk</h2>
+        <p>
+          <strong>Need more details about the Consulting Services we offer?</strong>
+        </p>
+        <p>
+          Leave your contact details and we’ll get back to you with answers.
+        </p>
+        <form action="#" enctype="multipart/form-data" method="post">
+          <div class="form-group">
+            <label for="name" class="name">Name*:</label>
+            <input type="text" placeholder="Krzysztof" required>
+          </div>
+
+          <div class="form-group">
+            <label for="surName" class="surName">Surname*:</label>
+            <input type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="phoneNumber" class="phoneNumber">Phone number:</label>
+            <input type="number">
+          </div>
+
+          <div class="form-group">
+            <label for="compName" class="compName">Company name:</label>
+            <input type="text" minlength="5" maxlength="30" required>
+          </div>
+
+          <div class="form-group-full">
+            <label for="email" class="surName">Company e-mail address*:</label>
+            <input type="email" required>
+          </div>
+
+          <div class="form-group-full">
+            <label for="idea" class="surName">Descirbe your idea*:</label>
+            <textarea minlength="20" maxlength="300"></textarea>
+          </div>
+
+          <h3 class="NDA">Do you need NDA first?</h3>
+
+          <div class="checkbox-container">
+            <label for="check1" class="checkbox-label">
+              <i class="fa-square-check">Yes</i>
+            </label>
+            <label for="check2" class="checkbox-label">
+              <i class="fa-square-check">No</i>
+            </label>
+          </div>
+
+          <p>
+            I understand that my personal data given in the contact form above
+            will be processed for purposes of answering my inquiry and for any
+            further correspondence regarding this inquiry. The controller of your
+            personal data is Future Processing. For more information, see our Privacy Policy.
+          </p>
+
+          <div class="button-container">
+            <button type="submit">SEND MESSAGE</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- INFO Site -->
+    <section class="info-site">
+      <div class="container">
+        <div class="info-columns">
+          <div class="info-column site-map">
+            <h3>SITE MAP</h3>
+            <ul>
+              <li><a href="#">Homepage</a></li>
+              <li><a href="#">Software Services</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">How we deliver</a></li>
+              <li><a href="#">Clients</a></li>
+              <li><a href="#">Knowledge Hub</a></li>
+              <li><a href="#">Business Blog</a></li>
+            </ul>
+          </div>
+
+          <div class="info-column initiatives">
+            <h3>OUR INITIATIVES</h3>
+            <ul>
+              <li><a href="#">Partner Channel</a></li>
+              <li><a href="#">Startupschmiede</a></li>
+              <li><a href="#">Healthcare Services</a></li>
+              <li><a href="#">SyncAI</a></li>
+              <li><a href="#">Cardia-ID</a></li>
+              <li><a href="#">IT Insights</a></li>
+            </ul>
+          </div>
+
+          <div class="info-column company">
+            <h3>COMPANY</h3>
+            <ul>
+              <li><a href="#">Career</a></li>
+              <li><a href="#">Contact with PR</a></li>
+              <li><a href="#">Going green</a></li>
+              <li><a href="#">Information for shareholders</a></li>
+            </ul>
+          </div>
+
+          <div class="info-column contact">
+            <div class="contact-methods">
+              <h3>SEND AN EMAIL</h3>
+              <a href="mailto:sales@future-processing.com" class="email">sales@future-processing.com</a>
+              <a href="#" class="copy-btn" onclick="copyToClipboard('sales@future-processing.com')">copy to
+                clipboard</a>
+
+              <div class="phone">
+                <a href="tel:+44845805">+44 845 805 <span class="orange">7245</span></a>
+              </div>
+
+              <a href="#" class="contact-button">USE CONTACT FORM</a>
+            </div>
+
+            <div class="social-links">
+              <p>FOLLOW US ON:</p>
+              <div class="social-icons">
+                <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-solid fa-blog"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Locations -->
+    <section class="maps">
+      <div class="container">
+        <div class="office-image">
+          <img src="img/building.png" alt="Headquarters building">
+          <div class="locationC">
+            <i class="fa-solid fa-location-dot"></i>
+            <div class="location-info">
+              <h4>Headquarters: Poland</h4>
+              <p>ul Bojkowska 37A, 44-100 Gliwice</p>
+              <a href="#" class="map-link">Google maps</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="locations-grid">
+          <div class="col 1">
+            <div class="location-wrapper">
+              <div class="font"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="location">
+                <div class="location-info">
+                  <h4>Poland</h4>
+                  <p>ul. Lipca 3b, 81-577 Gdynia</p>
+                  <a href="#" class="map-link">Google maps</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="location-wrapper">
+              <div class="font"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="location">
+                <div class="location-info">
+                  <h4>Ukraine</h4>
+                  <p>вул. Максима 10-8000 "Терамікс", D-40231 Düsseldorf</p>
+                  <a href="#" class="map-link">Google maps</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="location-wrapper">
+              <div class="font"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="location">
+                <div class="location-info">
+                  <h4>Ukraine</h4>
+                  <p>вул. Максима 10-8000 "Терамікс", D-40231 Düsseldorf</p>
+                  <a href="#" class="map-link">Google maps</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col 2">
+            <div class="location-wrapper">
+              <div class="font"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="location">
+                <div class="location-info">
+                  <h4>United Kingdom</h4>
+                  <p>18 Soho Square London, W1D 3QL, GBR</p>
+                  <a href="#" class="map-link">Google maps</a>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="location-wrapper">
+              <div class="font"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="location">
+                <div class="location-info">
+                  <h4>United Kingdom</h4>
+                  <p>18 Soho Square London, W1D 3QL, GBR</p>
+                  <a href="#" class="map-link">Google maps</a>
+                </div>
+              </div>
+            </div>
+
+          <div class="location-wrapper">
+            <div class="font"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="location">
+              <div class="location-info">
+                <h4>United Kingdom</h4>
+                <p>18 Soho Square London, W1D 3QL, GBR</p>
+                <a href="#" class="map-link">Google maps</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+          <div class="col 3">
+            <div class="location-wrapper">
+              <div class="font"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="location">
+                <div class="location-info">
+                  <h4>Germany</h4>
+                  <p>Erkrather Straße 401, D-40231 Düsseldorf</p>
+                  <a href="#" class="map-link">Google maps</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="location-wrapper">
+              <div class="font"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="location">
+                <div class="location-info">
+                  <h4>United Kingdom</h4>
+                  <p>18 Soho Square London, W1D 3QL, GBR</p>
+                  <a href="#" class="map-link">Google maps</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="location-wrapper">
+              <div class="font"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="location">
+                <div class="location-info">
+                  <h4>United Kingdom</h4>
+                  <p>18 Soho Square London, W1D 3QL, GBR</p>
+                  <a href="#" class="map-link">Google maps</a>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    © Future Processing. All rights reserved. | <span>Cookies | Privacy policy</span>
+  </footer>
+  <script>
+    document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+      document.querySelector('nav ul').classList.toggle('show');
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
